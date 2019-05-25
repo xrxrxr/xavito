@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bulma";
+
+/*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+
+footer {
+}
