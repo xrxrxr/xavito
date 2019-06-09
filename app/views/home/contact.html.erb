@@ -5,34 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script defer="defer" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
 
-  <section class="section">
-<center>
-    <div class="container">
-      <h1 class="title">
-      Pour me contacter
-      </h1>
+    <div class="backy">
 
-      <%= image_tag "qr1.png" %>
-
-      <p class="subtitle">
-         <strong>xrthefrench@gmail.com</strong>
-      </p>
       <br>
-<i class="fas fa-address-card" style="font-size:60px;color:purple;text-shadow:2px 2px 4px #9AECDB;"></i>
+      <br>
+      <section class="section">
+        <center>
+          <div class="container">
+            <h1 class="title">
+              Pour me contacter
+            </h1>
+
+            <%= image_tag "qr1.png" %>
+
+            <p class="subtitle">
+              <strong>xrthefrench@gmail.com</strong>
+            </p>
+            <br>
+            <div class="container">
+              <div class="notification">
+
+            <a href="/XR.vcf"><i class="fas fa-address-card"  href="/XR.vcf" style="font-size:60px;color:purple;text-shadow:2px 2px 4px #9AECDB;"></i></a>
+            <br>
+
+            <%= link_to "Vcard" , href="/XR.vcf"%>
+            <br>
+
+
+                    <a href="https://github.com/xrxrxr"><i class="fab fa-github-alt" style="font-size:60px;color:purple;text-shadow:2px 2px 4px #9AECDB;"></i></a>
 <br>
-
-      <%= link_to "Vcard" , href="/XR.vcf"%>
-      <br>
-
-    </div>
-  </center>
-
-
-
-  </section>
-  </body>
-</html>
+                    <%= link_to "Mon Github" , href="https://github.com/xrxrxr"%>
+<br>
+            <div></div>
+          </center>
+        </section>
+      </body>
+    </html>
